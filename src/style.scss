@@ -107,10 +107,10 @@ body {
 @media (max-width: 500px) {
 	.main-container {
 		flex-direction: column;
-		.look-container {
+		.inner-container {
 			width: 100%;
 		}
-		.look-container:nth-child(2) {
+		.inner-container:nth-child(2) {
 			flex-direction: column;
 		}
 	}
