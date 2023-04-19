@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.main-container .inner-container {
+  width: 32%;
+}
+.main-container .inner-container .img-container {
+  position: relative;
+}
+.main-container .inner-container .img-container .look-img {
+  width: 100%;
+}
+.main-container .inner-container .img-container .heart-icon-container {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+}
+.main-container .inner-container .img-container .heart-icon-container .heart-icon {
+  width: 20px;
+  background-color: transparent;
+}
+.main-container .inner-container .text-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px 0;
+}
+.main-container .inner-container .text-container .text {
+  color: rgb(31, 31, 31);
+  letter-spacing: 1px;
+  margin: 5px 0;
+}
+.main-container .inner-container .text-container .header-medium {
+  font-size: 21px;
+  text-transform: uppercase;
+}
+.main-container .inner-container .text-container .header-small {
+  font-size: 16px;
+}
+.main-container .inner-container .text-container .show-now-link {
+  position: relative;
+  color: rgb(231, 150, 0);
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-top: 20px;
+  padding: 10px;
+}
+.main-container .inner-container .text-container .show-now-link .arrow-icon {
+  position: absolute;
+  font-size: 24px;
+  padding-left: 10px;
+  bottom: 10px;
+  transition: 0.2s ease-out;
+}
+.main-container .inner-container .text-container .show-now-link:hover span {
+  padding-left: 20px;
+}
+.main-container .inner-container:nth-child(2) {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+@media (max-width: 500px) {
+  .main-container {
+    flex-direction: column;
+  }
+  .main-container .look-container {
+    width: 100%;
+  }
+  .main-container .look-container:nth-child(2) {
+    flex-direction: column;
+  }
+}
