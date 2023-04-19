@@ -1,0 +1,24 @@
+{
+	"name": "recruitment-task",
+	"source": "src/index.html",
+	"scripts": {
+		"start": "parcel",
+		"build": "parcel build --public-url ."
+	},
+	"version": "1.0.0",
+	"description": "",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rezio3/recruitment-task.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/rezio3/recruitment-task/issues"
+	},
+	"homepage": "https://github.com/rezio3/recruitment-task#readme",
+	"devDependencies": {
+		"@parcel/transformer-sass": "^2.8.3",
+		"parcel": "^2.8.3"
+	}
+}
