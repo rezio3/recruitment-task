@@ -3,7 +3,7 @@
 This is my recruitment task to Media Ambassador for Frontend Developer Junior/Mid position.
 
 ## Quickstart
-1. Copy this repository using:
+1. Clone this repository using:
   git clone https://github.com/rezio3/recruitment-task.git
 
 2. Installation:
