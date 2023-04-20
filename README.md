@@ -1,6 +1,6 @@
 # Recruitment task
 
-This is my recruitment task to Media Ambassador for Frontend Developer Junior/Mid position.
+This is my recruitment task for Media Ambassador for Frontend Developer Junior/Mid position.
 
 ## Quickstart
 1. Clone this repository using:
